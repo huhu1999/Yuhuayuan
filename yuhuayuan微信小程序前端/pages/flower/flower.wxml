@@ -1,0 +1,33 @@
+<view wx:if="{{a!=null}}">
+  <view class="ltk">
+    <image class="ltqp" src="../images/ltqp.png"></image>
+    <view wx:if="{{a==1}}" class="tip"> 好舒服啊！</view>
+    <view wx:elif="{{a==2}}"class="tip">让我哪凉快呆哪去吧</view>
+    <view wx:elif="{{a==3}}"class="tip">是时候冬眠了</view>
+    <view wx:elif="{{a==4}}"class="tip">好潮湿啊</view>
+    <view wx:elif="{{a==5}}"class="tip">渴死我了</view>
+    <view wx:elif="{{a==6}}" class="tip">晒死我了，我的遮阳伞呢</view>
+    <view wx:elif="{{a==7}}"class="tip">好暗啊，不好进行光合作用，都长不高了        </view>
+    <view wx:elif="{{a==8}}"class="tip">这种湿热的感觉真难受啊</view>
+    <view wx:elif="{{a==9}}"class="tip">又热又渴，感觉命不久矣</view>
+    <view wx:elif="{{a==10}}"class="tip">我是被放在太阳底下暴晒了吗</view>
+    <view wx:elif="{{a==11}}"class="tip">又热又没光，我是在什么鬼地方</view>
+    <view wx:elif="{{a==12}}"class="tip">我被抛弃在阴冷潮湿的小角落了吗</view>
+    <view wx:elif="{{a==13}}"class="tip">又冷又干，呜呜</view>
+    <view wx:elif="{{a==14}}"class="tip">我要瑟瑟发抖地被晒死了</view>
+    <view wx:elif="{{a==15}}"class="tip">我被抛弃在阴冷的小角落了吗</view>
+    <view wx:elif="{{a==16}}"class="tip">这么大的太阳，还这么潮湿</view>
+    <view wx:elif="{{a==17}}"class="tip">又是一个潮湿的偏僻的小角落</view>
+    <view wx:elif="{{a==18}}"class="tip">本来就渴，还这么大的太阳</view>
+    <view wx:elif="{{a==19}}"class="tip">期待有人能在黑暗中给我一点水</view>
+    <view wx:elif="{{a==20}}"class="tip">温度湿度光照都不合我意，贼难受</view>
+    <view wx:else>  </view>
+  </view>
+</view>
+<view wx:else class="hidden"></view>
+<view class="zujian"> 
+ <image class="icon_dr" src="{{src}}"></image>
+  <button  bindtap="click" class="pos"></button>
+</view>
+<view class="tishi">提示：点击图片查看盆栽情况</view>
+  <button  bindtap="detail" class="detail">查看饲养详情和注意事项</button>

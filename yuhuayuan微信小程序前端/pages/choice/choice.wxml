@@ -1,0 +1,30 @@
+<view class="body">
+  <view class="top">请选择你的花卉</view>
+  <view class="huahui">
+    <image class="flower_picture" src="../images/duorou.png"></image>
+    <image class="flower_picture" src="../images/luhui.jpg"></image>
+  </view>
+  <view class="button">
+    <view bindtap='choose_dr' class="first_floor" >多肉</view>
+    <view bindtap='luhui' class="first_floor">芦荟</view>
+  </view>
+  <view class="huahui">
+    <image class="flower_picture" src="../images/xrq.jpg"></image>
+    <image class="flower_picture" src="../images/haitang.jpg"></image>
+  </view>
+  <view class="button">
+    <view bindtap='xrq' class="second_floor" >仙人球</view>
+    <view bindtap='haitang' class="second_floor">海棠</view>
+  </view>
+  <view class="huahui">
+    <image class="flower_picture" src="../images/hydt.jpg"></image>
+    <image class="flower_picture" src="../images/hz.jpg"></image>
+  </view>
+  <view class="button">
+    <view bindtap='hydt' class="third_floor" >鸿运当头</view>
+    <view bindtap='hz' class="third_floor">红掌</view>
+  </view>
+</view>
+    
+  
+    

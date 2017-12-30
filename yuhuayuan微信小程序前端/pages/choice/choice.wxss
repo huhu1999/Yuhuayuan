@@ -1,0 +1,36 @@
+.body
+{
+  margin:0rpx 0rpx 0rpx 10rpx;
+}
+.top
+{
+ text-align:center
+ }
+.huahui
+{
+ flex-direction:row;
+}
+.flower_picture
+{
+  width:325rpx;
+  height:315rpx;
+ margin:0rpx 0rpx 0rpx 25rpx 
+}
+.button
+{
+  display: flex;
+flex-direction: row;
+text-align:center;
+}
+.first_floor
+{
+  margin:0rpx 120rpx 10rpx 150rpx;
+}
+.second_floor
+{
+margin:0rpx 100rpx 10rpx 140rpx
+}
+.third_floor
+{
+  margin:0rpx 120rpx 10rpx 100rpx
+}

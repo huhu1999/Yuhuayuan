@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/choice/choice",
+    "pages/flower/flower",
+    "pages/details/details"],
+
+
+"window":{
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor":"#fff",
+  "navigationBarTitleText":"御花园",
+  "navigationBarTextStyle":"black"
+}
+}
+

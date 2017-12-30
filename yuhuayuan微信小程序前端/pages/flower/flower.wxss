@@ -1,0 +1,63 @@
+
+.pos
+{
+  opacity:0;
+  background:lightgreen;
+  width:450rpx;
+  height:600rpx;
+}
+.icon_dr
+{position:absolute;
+left:125rpx;
+  width:250px;
+  height:300px;
+  margin-top:5px
+}
+.zujian
+{
+  position:relative;
+  top:50rpx;
+}
+ .tishi
+ {
+   position:relative;
+   top:150rpx;
+   
+   text-align:center;
+  color: #888888;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+ }
+ .ltqp
+ {
+   width:680rpx;
+   height:150rpx;
+   position:relative;
+   left:35rpx;
+ }
+ .ltk
+{
+position:relative;
+  top:20rpx;
+}
+.tip
+{
+  position:absolute;
+  left:0;
+  top:30%;
+  width:100%;
+text-align:center;
+}
+.hidden
+{
+  opacity:0;
+  height:150rpx;
+}
+.detail
+{
+  position:relative;
+  top:200rpx;
+  width:70%;
+color: white;
+  background-color: #00aea1;
+}
